@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TipsActivity">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:gravity="center_horizontal"
+        android:text="Tips"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tip_drop_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/down_arrow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/tips_shape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/star2"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/sound_star2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/star1"
+        android:layout_width="127dp"
+        android:layout_height="147dp"
+        android:layout_marginTop="76dp"
+        android:src="@drawable/sound_star1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="78dp"
+        android:src="@drawable/star_outline"
+        app:layout_constraintEnd_toEndOf="@+id/star2"
+        app:layout_constraintStart_toStartOf="@+id/star2"
+        app:layout_constraintTop_toTopOf="@+id/star2" />
+
+    <ImageView
+        android:id="@+id/rectangle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangle1"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/rectangle2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/recrangle2"
+        android:layout_marginTop="62dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tips_start1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/star_small"
+        android:layout_marginLeft="70dp"
+        app:layout_constraintBottom_toBottomOf="@+id/star2"
+        app:layout_constraintEnd_toEndOf="@+id/star2"
+        app:layout_constraintStart_toStartOf="@+id/star2" />
+
+    <ImageView
+        android:id="@+id/tips_start2"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="76dp"
+        android:src="@drawable/star_big"
+        android:layout_marginTop="74dp"
+        app:layout_constraintBottom_toBottomOf="@+id/star2"
+        app:layout_constraintEnd_toEndOf="@+id/star2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/star2"
+        app:layout_constraintTop_toTopOf="@+id/star1" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_bold"
+        android:gravity="center"
+        android:text="S"
+        android:textColor="@color/forest_green_color"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView10"
+        app:layout_constraintEnd_toEndOf="@+id/star1"
+        app:layout_constraintStart_toStartOf="@+id/star1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="Sounds"
+        android:layout_marginTop="160dp"
+        android:textColor="@color/forest_green_color"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView16"
+        app:layout_constraintStart_toStartOf="@+id/textView16"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/watch_button"
+        android:layout_width="208dp"
+        android:layout_height="58dp"
+        android:text="Watch video"
+        android:textSize="20sp"
+        android:backgroundTint="@color/tips_video_color"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+        app:layout_constraintEnd_toEndOf="@+id/imageView10"
+        app:layout_constraintStart_toStartOf="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:gravity="center_horizontal"
+        android:text="@string/tips_desc"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/watch_button"
+        app:layout_constraintHorizontal_bias="0.581"
+        app:layout_constraintStart_toStartOf="@+id/watch_button"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="409dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="140dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        tools:listitem="@layout/rv_item"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

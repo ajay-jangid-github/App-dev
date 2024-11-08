@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="signin_txt_color">#70CD74</color>
+    <color name="green_txt_color">#8FB776</color>
+    <color name="grey_txt_color">#cccccc</color>
+    <color name="subs_txt_color">#B6B6B6</color>
+    <color name="stroke_color">#D7D7D7</color>
+    <color name="login_txt_color">#ADADAD</color>
+    <color name="acc_txt_color">#1A3323</color>
+    <color name="forest_green_color">#1A3323</color>
+    <color name="Profile_view_color">#B6B6B6</color>
+    <color name="tips_video_color">#EC6A3C</color>
+    <color name="light_blue">#C4E3D9</color>
+    <color name="grey_stroke_outline">#B6B6B6</color>
+    <color name="flash_drop_down_clr">#D8D4B4</color>
+    <color name="light_sky">#50CDD9</color>
+</resources>

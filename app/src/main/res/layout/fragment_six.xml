@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.SoundFragment">
+
+    <TextView
+        android:id="@+id/headtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="4sp"
+        android:text="Great!"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:transformPivotY="-2.25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/headdesc"
+        android:layout_width="257dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="@font/sofia_pro_soft_med"
+        android:gravity="center_horizontal"
+        android:text="what should we practice"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/headtxt"
+        app:layout_constraintStart_toStartOf="@+id/headtxt"
+        app:layout_constraintTop_toBottomOf="@+id/headtxt" />
+
+
+    <Button
+        android:id="@+id/sound_strt_btn"
+        android:layout_width="187dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="45dp"
+        android:backgroundTint="@color/green_txt_color"
+        android:text="Let's get started"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/soundImg"
+        android:layout_width="172dp"
+        android:layout_height="172dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headdesc"
+        app:srcCompat="@drawable/sound" />
+
+    <TextView
+        android:id="@+id/stext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="@string/S_sound_txt"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/soundImg"
+        app:layout_constraintStart_toStartOf="@+id/soundImg"
+        app:layout_constraintTop_toBottomOf="@+id/soundImg" />
+
+    <TextView
+        android:id="@+id/sdesc"
+        android:layout_width="307dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:gravity="center_horizontal|top"
+        android:text="@string/S_sound_desc_txt"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/stext"
+        app:layout_constraintStart_toStartOf="@+id/stext"
+        app:layout_constraintTop_toBottomOf="@+id/stext" />
+
+    <ImageView
+        android:id="@+id/backArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/soundImg"
+        app:layout_constraintEnd_toStartOf="@+id/soundImg"
+        app:layout_constraintTop_toTopOf="@+id/soundImg"
+        app:srcCompat="@drawable/arroww" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

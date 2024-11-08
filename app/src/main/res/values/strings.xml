@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">ProjectImage</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="signIn_head_txt">Speech that\'s\ in Reach</string>
+    <string name="S_sound_txt">The Use \"S\"  Sound</string>
+    <string name="S_sound_long_desc_txt">Generally, lisps are caused by incorrect \n
+        tongue placement for the type of sound\n that you are trying to make.
+        This can be\n either learned or the result of a tongue-tie\n or tongue-thrust.</string>
+    <string name="S_sound_desc_txt">Lorem ipsum
+        Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+        ipsumLorem ipsum Lorem ipsumLorem ipsum</string>
+    <string name="tips_desc">
+        Try tapping your arm and move your hand \n down to your palm while you say it, like a
+        \n snake sliding. Keep practicing!!
+    </string>
+    <string name="ti_id_first_txt">
+        Keep your tongue back
+    </string>
+    <string name="ti_first_desc_txt">
+        Remember to lightly touch your \n tongue behind your front teeth.
+    </string>
+    <string name="ti_id_second_txt">
+        \‘SSS\’
+    </string>
+    <string name="ti_second_desc_txt">
+        Remember, it\'s\ \'sss\' not \'shh\' or \'th.
+    </string>
+    <string name="ti_third_txt">
+        Slow and Clear
+    </string>
+    <string name="ti_third_desc_txt">
+        Take your time and say the \'s\' \nsound slowly and clearly.
+    </string>
+    <string name="ti_id_fourth_txt">
+        Smooth Air
+    </string>
+
+    <string name="ti_fourth_desc_txt">
+        Let the air flow smoothly like a soft breeze
+    </string>
+
+
+</resources>

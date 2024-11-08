@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.AgeFragment">
+
+
+    <TextView
+        android:id="@+id/age_head_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:gravity="center"
+        android:lineSpacingExtra="4sp"
+        android:text="Hi there!"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:translationY="-2.25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/age_head_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_marginTop="171dp"
+        android:gravity="center_horizontal"
+        android:text="Whats your age?"
+        android:fontFamily="@font/sofia_pro_soft_med"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/birth_title"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:paddingStart="10dp"
+        android:text="Birthday"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/layL1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/layL1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/ageshape"
+        android:elevation="0.5dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/brthTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/open_sans_semibold"
+            android:gravity="center_vertical"
+            android:text="--/--/--"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:id="@+id/birthbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:backgroundTint="@color/green_txt_color"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

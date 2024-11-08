@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubscriptionActivity">
+
+    <TextView
+        android:id="@+id/subs_head_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:gravity="center"
+        android:text="Subscriptions"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/subscibe_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="72dp"
+        android:backgroundTint="@color/green_txt_color"
+        android:text="Start my free month"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/sub_app_txt"
+        app:layout_constraintStart_toStartOf="@+id/sub_app_txt"
+        app:layout_constraintTop_toBottomOf="@+id/sub_app_txt" />
+
+    <TextView
+        android:id="@+id/plan_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Continue without plan"
+        android:textColor="@color/forest_green_color"
+        app:layout_constraintEnd_toEndOf="@+id/subscibe_btn"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="@+id/subscibe_btn"
+        app:layout_constraintTop_toBottomOf="@+id/subscibe_btn" />
+
+    <TextView
+        android:id="@+id/sub_app_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Cancel anytime in the App Store"
+        android:textColor="@color/subs_txt_color"
+        android:fontFamily="@font/sofia_pro_soft_med"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subs_desc_txt"
+        app:srcCompat="@drawable/subscription" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toTopOf="@+id/imageView15"
+        app:srcCompat="@drawable/substop" />
+
+    <TextView
+        android:id="@+id/subs_desc_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:text="Join the VocalIR community! \n Choose a plan for your \n 30-day free trial "
+        android:textColor="@color/black"
+        android:fontFamily="@font/open_sans_semibold"
+        app:layout_constraintEnd_toEndOf="@+id/subs_head_txt"
+        app:layout_constraintStart_toStartOf="@+id/subs_head_txt"
+        app:layout_constraintTop_toBottomOf="@+id/subs_head_txt" />
+</androidx.constraintlayout.widget.ConstraintLayout>
